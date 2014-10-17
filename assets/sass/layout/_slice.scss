@@ -1,0 +1,16 @@
+.slice {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.slice-item {
+    display: table-cell;
+    vertical-align: top;
+}
+
+@include phone() {
+  .slice {
+    & > .slice-item { display: table-row; }
+  }
+}
