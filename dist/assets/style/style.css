@@ -175,6 +175,10 @@ body {
   display: block;
 }
 
+.icon-inline {
+  display: inline !important;
+}
+
 .icon-8 {
   width: 8px;
   height: 8px;
@@ -344,26 +348,12 @@ a:hover {
 
 .main-header {
   width: 100%;
-  height: 50px;
+  height: 56px;
+  position: fixed;
+  z-index: 100;
   color: #FFFFFF;
   background: rgba(40, 61, 76, 0.1);
   border-bottom: 1px solid #56A292;
-}
-
-.main-header a {
-  color: #FFFFFF;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 15px;
-  -webkit-transition-property: color, background;
-  transition-property: color, background;
-  -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
-
-.main-header a:hover {
-  color: #56A292;
-  background: #FFFFFF;
 }
 
 .main-header-wrapper {
@@ -375,7 +365,29 @@ a:hover {
 .main-header-center,
 .main-header-right {
   float: left;
-  padding-top: 12px;
+  padding-top: 15px;
+}
+
+.main-header-mobile {
+  display: none;
+}
+
+.main-header-center a,
+.main-header-right a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 15px 16px;
+  -webkit-transition-property: color, background;
+  transition-property: color, background;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+}
+
+.main-header-center a:hover,
+.main-header-right a:hover {
+  color: #56A292;
+  background: #FFFFFF;
 }
 
 .main-header-left {
@@ -383,9 +395,9 @@ a:hover {
   text-align: left;
 }
 
-.main-header-left .main-header-home:hover {
-  color: none;
-  background: none;
+.main-header-left .main-header-home {
+  width: 150px;
+  height: auto;
 }
 
 .main-header-center {
@@ -404,6 +416,43 @@ a:hover {
 .main-header-right {
   width: 25%;
   text-align: right;
+}
+
+@media all and (max-width: 960px) {
+  .main-header {
+    font-size: .8rem;
+    position: relative;
+  }
+
+  .main-header-left,
+  .main-header-right {
+    width: 20%;
+  }
+
+  .main-header-center {
+    width: 60%;
+  }
+
+  .main-header-center a,
+  .main-header-right a {
+    padding: 20px 10px 16px;
+  }
+
+  .main-header-left .main-header-home {
+    padding-left: 15px;
+    width: 125px;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .main-header-center,
+  .main-header-right {
+    display: none;
+  }
+
+  .main-header-mobile {
+    display: block;
+  }
 }
 
 /* FONT PATH

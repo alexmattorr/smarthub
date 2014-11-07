@@ -5,6 +5,10 @@
 	display: block;
 }
 
+.icon-inline {
+	display: inline !important;
+}
+
 @each $i in (8 14 16 22 24 27 28 32 34 38 48 60 72 90 360) {
 	.icon-#{$i} {
 		width: #{$i}px; 
