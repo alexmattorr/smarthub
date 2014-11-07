@@ -16,6 +16,11 @@ body {
     font-smoothing: antialiased;
 }
 
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
 @include tablet-l() {
 
 }

@@ -9,14 +9,14 @@ $blue: #283D4C;
 $dark-blue: #1A262E;
 
 // responsive
-$tiny: 320;
-$small: 480;
-$phone: 640;
-$phone-l: 768;
-$tablet: 960;
-$tablet-l: 1024;
-$full: 1080;
-$desktop: 1280;
+$tiny: 320px;
+$small: 480px;
+$phone: 640px;
+$phone-l: 768px;
+$tablet: 960px;
+$tablet-l: 1024px;
+$full: 1080px;
+$desktop: 1280px;
 
 // build media queries
 @mixin tiny() {

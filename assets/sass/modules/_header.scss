@@ -1,0 +1,51 @@
+.main-header {
+	width: 100%;
+	height: 50px;
+
+	color: $white;
+	background: rgba($blue, 0.1); // change when image is added
+
+	border-bottom: 1px solid $dark-blue;
+
+	a {
+		color: $white;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover { color: $teal; }
+	}
+}
+
+.main-header-wrapper {
+	max-width: $full;
+	margin: 0 auto;
+}
+
+.main-header-left, .main-header-center, .main-header-right {
+	float: left;
+	padding-top: 12px;
+}
+
+.main-header-left {
+	width: 25%;
+	text-align: left;
+}
+
+.main-header-center {
+	width: 50%;
+	text-align: center;
+
+	li {
+		display: inline;
+		padding: 0 15px;
+	} 
+
+	a {
+		font-weight: 800;
+	}
+}
+
+.main-header-right {
+	width: 25%;
+	text-align: right;
+}

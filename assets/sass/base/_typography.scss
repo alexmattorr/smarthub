@@ -3,8 +3,12 @@
 
 body {
 	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
 	line-height: 26px;
+	letter-spacing: 1px;
 	color: $dark-blue;
+
+	-webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -29,4 +33,11 @@ h5 {
 
 p {
 	font-size: 16px;
+}
+
+a {
+	color: $teal;
+	&:visited { color: $teal;}
+	&:active { color: $teal;}
+	&:hover { color: $white;}
 }
