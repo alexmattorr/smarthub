@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,100,300,700);
+
 html,
 body,
 div,
@@ -260,6 +262,36 @@ body {
   width: 100%;
   height: auto;
   color: blue;
+}
+
+body {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1A262E;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .container {

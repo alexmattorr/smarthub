@@ -1,7 +1,7 @@
 // reset it all
 @import "includes/reset";
 
-// includes (variables and macros) 
+// includes 
 @import "includes/variables";
 @import "includes/mixins";
 @import "includes/fonts";
@@ -11,6 +11,7 @@
 @import "base/base";
 @import "base/icon";
 @import "base/nav";
+@import "base/typography";
 // typography
 
 // layout
@@ -22,4 +23,6 @@
 // components
 
 // modules
+
+//pages
 
