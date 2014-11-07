@@ -347,17 +347,23 @@ a:hover {
   height: 50px;
   color: #FFFFFF;
   background: rgba(40, 61, 76, 0.1);
-  border-bottom: 1px solid #1A262E;
+  border-bottom: 1px solid #56A292;
 }
 
 .main-header a {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 15px;
+  -webkit-transition-property: color, background;
+  transition-property: color, background;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
 }
 
 .main-header a:hover {
   color: #56A292;
+  background: #FFFFFF;
 }
 
 .main-header-wrapper {
@@ -377,6 +383,11 @@ a:hover {
   text-align: left;
 }
 
+.main-header-left .main-header-home:hover {
+  color: none;
+  background: none;
+}
+
 .main-header-center {
   width: 50%;
   text-align: center;
@@ -384,7 +395,6 @@ a:hover {
 
 .main-header-center li {
   display: inline;
-  padding: 0 15px;
 }
 
 .main-header-center a {

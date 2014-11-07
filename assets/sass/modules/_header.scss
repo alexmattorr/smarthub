@@ -5,14 +5,19 @@
 	color: $white;
 	background: rgba($blue, 0.1); // change when image is added
 
-	border-bottom: 1px solid $dark-blue;
+	border-bottom: 1px solid $teal;
 
 	a {
 		color: $white;
 		text-decoration: none;
 		text-transform: uppercase;
 
-		&:hover { color: $teal; }
+		padding: 15px;
+
+		transition-property: color, background;
+		transition-duration: .2s;
+
+		&:hover { color: $teal; background: $white; }
 	}
 }
 
@@ -29,6 +34,10 @@
 .main-header-left {
 	width: 25%;
 	text-align: left;
+
+	.main-header-home {
+		&:hover {color: none; background: none;}
+	}
 }
 
 .main-header-center {
@@ -37,7 +46,6 @@
 
 	li {
 		display: inline;
-		padding: 0 15px;
 	} 
 
 	a {
