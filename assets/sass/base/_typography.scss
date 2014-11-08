@@ -37,6 +37,7 @@ p {
 
 a {
 	color: $teal;
+	text-decoration: none;
 	&:visited { color: $teal;}
 	&:active { color: $teal;}
 	&:hover { color: $white;}

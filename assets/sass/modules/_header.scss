@@ -91,7 +91,33 @@
 	.main-header-center,
 	.main-header-right { display: none; }
 
-	.main-header-mobile { display: none; }
+	.main-header-mobile { 
+		display: none; 
+
+		position: absolute;
+		top: 55px;
+		z-index: 99;
+
+		background: $teal;
+		width: 100%;
+
+		li {
+			text-align: center;
+			text-transform: uppercase;
+			padding: 15px 0;
+
+			border-bottom: 1px solid $dark-teal;
+
+			&:last-child {
+				border-bottom: 2px solid $dark-teal;
+			}
+		}
+
+		a {
+			color: $white;
+			display: block;
+		}
+	}
 
 	.main-header-mobile-button {
 		display: block;
