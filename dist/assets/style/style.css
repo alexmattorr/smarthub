@@ -368,7 +368,8 @@ a:hover {
   padding-top: 15px;
 }
 
-.main-header-mobile {
+.main-header-mobile,
+.main-header-mobile-button {
   display: none;
 }
 
@@ -418,6 +419,12 @@ a:hover {
   text-align: right;
 }
 
+@media all and (max-width: 1280px) {
+  .main-header-left .main-header-home {
+    padding-left: 15px;
+  }
+}
+
 @media all and (max-width: 960px) {
   .main-header {
     font-size: .8rem;
@@ -451,7 +458,22 @@ a:hover {
   }
 
   .main-header-mobile {
+    display: none;
+  }
+
+  .main-header-mobile-button {
     display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: #56A292;
+  }
+
+  .main-header-mobile-button .fa-bars {
+    margin: 16px;
   }
 }
 

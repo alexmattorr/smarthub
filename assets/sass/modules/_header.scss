@@ -23,7 +23,8 @@
 	padding-top: 15px;
 }
 
-.main-header-mobile { display: none; }
+.main-header-mobile,
+.main-header-mobile-button { display: none; }
 
 .main-header-center, 
 .main-header-right {
@@ -69,6 +70,10 @@
 	text-align: right;
 }
 
+@media all and (max-width: $desktop) {
+	.main-header-left { .main-header-home { padding-left: 15px;} }	
+}
+
 @media all and (max-width: $tablet) {
 	.main-header { font-size:  .8rem; position: relative; }
 	.main-header-left,  
@@ -85,7 +90,26 @@
 @media all and (max-width: $phone) {
 	.main-header-center,
 	.main-header-right { display: none; }
-	.main-header-mobile {
+
+	.main-header-mobile { display: none; }
+
+	.main-header-mobile-button {
 		display: block;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		width: 55px;
+		height: 55px;
+
+		cursor: pointer;
+
+		background: $teal;
+
+		.fa-bars {
+			margin: 16px;
+		}
 	}
 }
+

@@ -13,6 +13,7 @@ app.base = (function($, _ , app, grunticon) {
 
 	var init = function(){
 		this.gruntIcon();
+		this.mobileToggle();
 		// this.module();
 	};
 
@@ -27,6 +28,14 @@ app.base = (function($, _ , app, grunticon) {
 					$('.icon').show();
 				}, 1200);
 
+		},
+
+		mobileToggle: function() {
+			$(document).ready(function(){
+			  $(".main-header-mobile-button").click(function(){
+			    $(".main-header-mobile").toggle();
+			  });
+			});
 		}
 
 		// a module
