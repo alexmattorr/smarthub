@@ -470,7 +470,6 @@ a:hover {
   .main-header-mobile li {
     text-align: center;
     text-transform: uppercase;
-    padding: 15px 0;
     border-bottom: 1px solid #1C8080;
   }
 
@@ -481,6 +480,7 @@ a:hover {
   .main-header-mobile a {
     color: #FFFFFF;
     display: block;
+    padding: 15px 0;
   }
 
   .main-header-mobile-button {
