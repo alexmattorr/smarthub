@@ -44,3 +44,29 @@ footer {
 		padding: 15px;
 	}
 }
+
+@media all and (max-width: $phone) {
+	.inner-footer {
+		padding-top: 25px;
+	}
+	
+	.inner-footer-left, .inner-footer-right {
+		width: 100% !important;
+		text-align: center !important;
+		float: none;
+	}
+
+	.inner-footer-left {
+		li {
+			display: block;
+		}
+	}
+
+	.inner-footer-right {
+		padding: 15px 0;
+	}
+
+	.inner-footer-bottom {
+		text-align: center;
+	}
+}
