@@ -9,8 +9,6 @@
     vertical-align: top;
 }
 
-@include phone() {
-  .slice {
-    & > .slice-item { display: table-row; }
-  }
+@media all and (max-width: $phone) { 
+  .slice { & > .slice-item { display: table-row; } }
 }

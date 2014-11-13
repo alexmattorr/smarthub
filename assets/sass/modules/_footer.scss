@@ -1,0 +1,46 @@
+footer {
+	width: 100%;
+
+	position: absolute;
+	bottom: 0;
+
+	background: $dark-blue;
+	color: $teal;
+}
+
+.inner-footer {
+	max-width: $full;
+	margin: 0 auto;
+	padding-top: 50px;
+
+	p { font-size: 12px; }
+	li { display: inline; }
+
+	.inner-footer-left, .inner-footer-right {
+		float: left;
+		width: 50%;
+	}
+
+	.inner-footer-left {
+		text-align: left;
+
+		li {
+			font-size: 12px;
+			padding: 0 15px;
+			border-right: 1px solid $teal;
+		}
+	}
+
+	.inner-footer-right {
+		text-align: right;
+
+		li {
+			padding: 0 5px;
+		}
+	}
+
+	.inner-footer-bottom {
+		width: 100%;
+		padding: 15px;
+	}
+}

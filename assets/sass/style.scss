@@ -17,6 +17,7 @@
 // layout
 @import "layout/layout";
 @import "layout/slice";
+@import "layout/section";
 
 // base grid
 
@@ -25,6 +26,10 @@
 
 // modules
 @import "modules/header";
+@import "modules/footer";
+
+// pages
+@import "pages/features";
 
 //font-awesome
 @import "font-awesome/variables";

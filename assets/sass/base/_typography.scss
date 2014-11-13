@@ -13,22 +13,27 @@ body {
 
 h1 {
 	font-size: 65px;
+	line-height: 75px;
 }
 
 h2 {
 	font-size: 55px;
+	line-height: 65px;
 }
 
 h3 {
 	font-size: 45px;
+	line-height: 55px;
 }
 
 h4 {
 	font-size: 35px;
+	line-height: 45px;
 }
 
 h5 {
 	font-size: 25px;
+	line-height: 35px;
 }
 
 p {
@@ -41,4 +46,20 @@ a {
 	&:visited { color: $teal;}
 	&:active { color: $teal;}
 	&:hover { color: $white;}
+}
+
+@media all and (max-width: $tablet) {
+	h1 { font-size: 3.5rem;}
+	h2 { font-size: 3rem;}
+	h3 { font-size: 2.5rem;}
+	h4 { font-size: 2rem;}
+	h5 { font-size: 1.5rem;}
+}
+
+@media all and (max-width: $phone) {
+	h1 { font-size: 2.5rem; }
+	h2 { font-size: 2rem; line-height: 3rem; }
+	h3 { font-size: 2rem; line-height: 2.5rem; }
+	h4 { font-size: 1.5rem; line-height: 2.25rem; }
+	h5 { font-size: 1.5rem; line-height: 2rem; }
 }

@@ -1,0 +1,12 @@
+section {
+	max-width: $desktop;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.section-hero {
+	margin-top: 100px;
+
+	h1 { color: $white; }
+	.quote { color: $teal; }
+}

@@ -167,6 +167,10 @@ body {
   zoom: 1;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .icon {
   -ms-behavior: url("/dist/assets/library/backgroundsize.min.htc");
   background-position: center center;
@@ -286,22 +290,27 @@ body {
 
 h1 {
   font-size: 65px;
+  line-height: 75px;
 }
 
 h2 {
   font-size: 55px;
+  line-height: 65px;
 }
 
 h3 {
   font-size: 45px;
+  line-height: 55px;
 }
 
 h4 {
   font-size: 35px;
+  line-height: 45px;
 }
 
 h5 {
   font-size: 25px;
+  line-height: 35px;
 }
 
 p {
@@ -325,6 +334,54 @@ a:hover {
   color: #FFFFFF;
 }
 
+@media all and (max-width: 960px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 640px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -341,10 +398,28 @@ a:hover {
   vertical-align: top;
 }
 
-@media only screen and (max-width: 640pxpx) {
+@media all and (max-width: 640px) {
   .slice > .slice-item {
     display: table-row;
   }
+}
+
+section {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-hero {
+  margin-top: 100px;
+}
+
+.section-hero h1 {
+  color: #FFFFFF;
+}
+
+.section-hero .quote {
+  color: #56A292;
 }
 
 .bg-hero {
@@ -413,6 +488,7 @@ a:hover {
 .main-header-center a,
 .main-header-right a {
   color: #FFFFFF;
+  font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
   padding: 20px 15px 17px;
@@ -528,6 +604,61 @@ a:hover {
   .main-header-mobile-button .fa-bars {
     margin: 16px;
   }
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #1A262E;
+  color: #56A292;
+}
+
+.inner-footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.inner-footer p {
+  font-size: 12px;
+}
+
+.inner-footer li {
+  display: inline;
+}
+
+.inner-footer .inner-footer-left,
+.inner-footer .inner-footer-right {
+  float: left;
+  width: 50%;
+}
+
+.inner-footer .inner-footer-left {
+  text-align: left;
+}
+
+.inner-footer .inner-footer-left li {
+  font-size: 12px;
+  padding: 0 15px;
+  border-right: 1px solid #56A292;
+}
+
+.inner-footer .inner-footer-right {
+  text-align: right;
+}
+
+.inner-footer .inner-footer-right li {
+  padding: 0 5px;
+}
+
+.inner-footer .inner-footer-bottom {
+  width: 100%;
+  padding: 15px;
+}
+
+.features-icon {
+  font-size: 10rem !important;
 }
 
 /* FONT PATH
