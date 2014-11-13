@@ -31,8 +31,8 @@ app.base = (function($, _ , app, grunticon) {
 		},
 
 		mobileToggle: function() {
-			$(document).ready(function(){
-			  $(".main-header-mobile-button").click(function(){
+			$(document).ready(function() {
+			  $(".main-header-mobile-button").click(function(){ 
 			    $(".main-header-mobile").toggle();
 			  });
 			});

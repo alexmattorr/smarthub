@@ -33,7 +33,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 
-		padding: 20px 15px 16px;
+		padding: 20px 15px 17px;
 
 		transition-property: color, background;
 		transition-duration: .2s;
@@ -80,9 +80,6 @@
 	.main-header-right { width: 20%; }
 
 	.main-header-center {width: 60%;}
-
-	.main-header-center, 
-	.main-header-right { a { padding: 20px 10px 16px; } }
 
 	.main-header-left { .main-header-home { padding-left: 15px; width: 125px; } }	
 }

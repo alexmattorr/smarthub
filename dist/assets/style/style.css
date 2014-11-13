@@ -347,6 +347,42 @@ a:hover {
   }
 }
 
+.bg-hero {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-1 {
+  background: url(../../img/1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-2 {
+  background: url(../../img/2.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-3 {
+  background: url(../../img/3.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-4 {
+  background: url(../../img/4.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
 .main-header {
   width: 100%;
   height: 56px;
@@ -379,7 +415,7 @@ a:hover {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 20px 15px 16px;
+  padding: 20px 15px 17px;
   -webkit-transition-property: color, background;
   transition-property: color, background;
   -webkit-transition-duration: .2s;
@@ -439,11 +475,6 @@ a:hover {
 
   .main-header-center {
     width: 60%;
-  }
-
-  .main-header-center a,
-  .main-header-right a {
-    padding: 20px 10px 16px;
   }
 
   .main-header-left .main-header-home {
