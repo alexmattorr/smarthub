@@ -496,6 +496,7 @@ section {
   text-decoration: none;
   text-transform: uppercase;
   padding: 20px 15px 17px;
+  margin-left: -5px;
   -webkit-transition-property: color, background;
   transition-property: color, background;
   -webkit-transition-duration: .2s;
