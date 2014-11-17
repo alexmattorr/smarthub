@@ -14,6 +14,7 @@ app.base = (function($, _ , app, grunticon) {
 	var init = function(){
 		this.gruntIcon();
 		this.mobileToggle();
+		// this.imgCarousel();
 		// this.module();
 	};
 
@@ -38,19 +39,11 @@ app.base = (function($, _ , app, grunticon) {
 			});
 		}
 
-		// a module
-		/*module: function() {
-			$('#content').each(function() {
-				//////////////////////////////////////////////////////// 
-				
-				we instantiate in this way so that we
-				can access our methods from the frontend with jQuery
-				like: `$('#content').data().myModule._methodName_();`
-				
-				////////////////////////////////////////////////////////
-				$(this).data('myModule', new app.myModule(this));
-			});
-		}*/
+		// imgCarousel: function() {
+		// 	$('#slides').superslides({
+		// 		hashchange: true;
+		// 	});
+		// }
 
 	};
 
