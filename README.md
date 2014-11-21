@@ -1,16 +1,5 @@
-SmartHub
+userbutter
+==========
 
-Home control for the future.
+Client-Side Scripting Project - GWDA363
 
-Requirements:
--------------
-- npm
-- grunt
-- bower
-
-Installation:
--------------
-- npm install
-- bower-install
-- grunt svg_min
-- grunt
