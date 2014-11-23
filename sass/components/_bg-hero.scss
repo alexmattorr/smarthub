@@ -4,7 +4,7 @@
 }
 
 .hero-1 {
-	background: url(../imgs/spoons.png);
+	background: url(../imgs/blurred-spoons.png);
 	background-size: cover;
 	background-position: center;
 }
@@ -25,3 +25,10 @@
 	background-size: cover;
 	background-position: center;
 }	
+
+
+@media all and (max-width: $phone) {
+	.bg-hero {
+		height: 1300px;
+	}
+}

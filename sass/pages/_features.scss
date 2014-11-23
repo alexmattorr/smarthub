@@ -2,6 +2,29 @@
 	
 }
 
+.features-info {
+	margin: 20px;
+
+	h4 {
+		color: $white;
+	}
+
+	p {
+		font-size: 20px;
+		color: $teal;
+	}
+}
+
 .features-icon {
 	font-size: 10rem !important;
+	color: $teal;
+	&:hover { 
+		color: $white;
+	}
+}
+
+@media all and (max-width: $phone) {
+	.features-info {
+		margin-bottom: 50px;
+	}
 }
