@@ -22,9 +22,32 @@
 	position: absolute;
 	z-index: 99;
 
-	padding: 218px 30px;
+	padding: 284px 30px;
 
 	color: $white;
+
+	transition-property: color;
+	transition-duration: 0.3s;
+
+	&:hover {
+		color: $teal;
+	}
+}
+
+.carousel-scroll-slice { text-align: center;}
+
+.carousel-scroll {
+	position: absolute;
+	margin-top: -100px;
+	z-index: 99;
+	color: $white;
+
+	transition-property: color;
+	transition-duration: 0.3s;
+
+	&:hover {
+		color: $teal;
+	}
 }
 
 .carousel-previous {

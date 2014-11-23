@@ -24,6 +24,15 @@ function signinOverlay() {
 	});	
 };
 
+function smoothScroll() {
+	$(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+		});
+	});
+};
+
 function imgSlider() {
 	$(document).ready(function() {
 		$(".carousel-next").on("click", function(e) {
@@ -60,4 +69,5 @@ function imgSlider() {
 mobileToggle();
 mobileColor();
 signinOverlay();
+smoothScroll();
 imgSlider();
