@@ -24,13 +24,40 @@ function signinOverlay() {
 	});	
 };
 
+function imgSlider() {
+	$(document).ready(function() {
+		$(".carousel-next").on("click", function(e) {
+			var currentActiveImage = $(".image-active");
+			var nextActiveImage = currentActiveImage.next();
 
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p:first").addClass("intro");
-  });
-});
+			if(nextActiveImage.length == 0) {
+				nextActiveImage = $(".carousel-inner img").first();
+			};
 
+			currentActiveImage.removeClass("image-active").addClass("image-hidden");
+			nextActiveImage.addClass("image-active").removeClass("image-hidden");
+			$(".carousel-inner img").not([currentActiveImage, nextActiveImage]);
+
+			e.preventDefault();
+		});
+
+		$(".carousel-previous").on("click", function(e) {
+			var currentActiveImage = $(".image-active");
+			var nextActiveImage = currentActiveImage.prev();
+
+			if(nextActiveImage.length == 0) {
+				nextActiveImage = $(".carousel-inner img").last();
+			}
+
+			currentActiveImage.removeClass("image-active").addClass("image-hidden");
+			nextActiveImage.addClass("image-active").removeClass("image-hidden");
+			$(".carousel-inner img").not([currentActiveImage, nextActiveImage]);
+
+			e.preventDefault();
+		});
+	});
+};
 mobileToggle();
 mobileColor();
 signinOverlay();
+imgSlider();
