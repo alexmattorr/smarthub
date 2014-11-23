@@ -1,0 +1,27 @@
+.bg-hero {
+	width: 100%;
+	height: 600px;
+}
+
+.hero-1 {
+	background: url(../imgs/spoons.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-2 {
+	background: url(../../img/2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-3 {
+	background: $dark-blue;
+	height: 100%;
+}
+
+.hero-4 {
+	background: url(../../img/4.jpg);
+	background-size: cover;
+	background-position: center;
+}	

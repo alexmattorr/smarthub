@@ -10,8 +10,10 @@
 
 // layout
 @import "layout/slice";
+@import "layout/section";
 
 // components
+@import "components/bg-hero";
 
 // modules
 @import "module/header";
@@ -20,6 +22,7 @@
 
 // pages
 @import "pages/home";
+@import "pages/features";
 
 // font-awesome
 @import "font-awesome/variables";
