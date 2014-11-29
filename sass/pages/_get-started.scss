@@ -7,9 +7,17 @@
 	font-size: 10rem !important;
 
 	padding: 30px 40px 30px 30px;
+	margin-bottom: 25px;
 }
 
-
+.get-started-num {
+	font-size: 2rem;
+	color: $teal;
+	margin-right: 15px;
+	padding: 5px 10px;
+	border: solid 5px $teal;
+	border-radius: 30px;
+}
 
 @media all and (max-width: $tablet) {
 	.get-started-icon {

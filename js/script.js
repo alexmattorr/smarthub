@@ -66,6 +66,12 @@ function imgSlider() {
 		});
 	});
 };
+
+function sectionToggle() {
+	$(document).ready(function($) {
+		
+	});
+};
 mobileToggle();
 mobileColor();
 signinOverlay();

@@ -1,0 +1,19 @@
+.how-it-works {
+	img {
+		width: 100%;
+		height: 300px !important; //change when inserting image
+		height: auto;
+		background: $white;
+	}
+
+	.how-it-works-desc {
+		h4, p {
+			color: $white;
+			margin-left: 25px;
+		}
+
+		p {
+			margin-bottom: 40px;
+		}
+	}
+}
