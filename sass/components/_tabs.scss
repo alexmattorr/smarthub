@@ -81,3 +81,45 @@
     display: block;
   }
 }
+
+label {
+    display: block;
+    padding: 14px 21px;
+    color: $light;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+
+    transition-property: color;
+    transition-duration: .3s;
+    &:hover {
+      color: $teal;
+    }
+  }
+@media(max-width: $phone) {
+  [id^="tab"]:checked + label {
+    color: $dark-blue !important;
+    background: $teal !important;
+    padding: 14px !important;}
+  .tabs {
+    label {
+      padding: 14px 0;
+      background: $dark-teal;
+    }
+    li {
+      .fa-5x {font-size: 2rem;}
+      h4, p {display: none;}
+    }
+  }
+  .tab-content{
+    height: auto !important;
+    ul {
+      columns: 1 !important;
+      -webkit-columns: 1 !important;
+      -moz-columns: 1 !important;
+      li {margin: 20px 0 !important;}
+    }
+  }
+}
