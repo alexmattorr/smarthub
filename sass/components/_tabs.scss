@@ -1,18 +1,16 @@
-$background: #9b59b6;
-$tabs-base-color: #8e44ad;
-
 .tabs {
   width: 100%;  
   float: none;
   list-style: none;
   position: relative;
-  margin: 100px auto;
+  margin: 40px auto;
   text-align: left;
   li {
     float: left;
     display: block;
     width: 33.33%;
     text-align: center;
+    i {font-size: 10rem;}
   }
   input[type="radio"] {
     position: absolute;
@@ -22,11 +20,9 @@ $tabs-base-color: #8e44ad;
   label {
     display: block;
     padding: 14px 21px;
-    border-radius: 2px 2px 0 0;
     color: $light;
     font-size: 20px;
     font-weight: normal;
-    text-transform: uppercase;
     cursor: pointer;
     position: relative;
     top: 4px; 
@@ -44,7 +40,6 @@ $tabs-base-color: #8e44ad;
     line-height: 25px;
     padding: 25px;  
     position: absolute;
-    top: 53px;
     left: 0; 
     background: $teal;
   }
