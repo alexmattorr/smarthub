@@ -1,8 +1,23 @@
 @import "compass/reset";
 
-@import "variables";
-@import "body";
+// INCLUDES
+@import "includes/variables";
 
+// BASE
+@import "base/body";
+@import "base/typography";
+
+// MODULES
+@import "modules/header";
+@import "modules/footer";
+
+// COMPONENTS
+
+// PAGES
+@import "pages/intro";
+@import "pages/how-it-works";
+
+// FONT AWESOME
 @import "font-awesome/variables";
 @import "font-awesome/mixins";
 @import "font-awesome/path";
