@@ -1,103 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>SmartHub</title>
-	<link rel="stylesheet" href="stylesheets/styles.css">
-	<!-- Temporary fix for font-awesome -->
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SmartHub</title>
+
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/styles.css" rel="stylesheet">
+    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-	<!-- Header -->
-	<header class="main-header clearfix">
-		<div class="main-header-wrapper">
-			<div class="main-header-left">
-				<a href="index.html"><img src="imgs/logo.png" alt="smarthub"></a>
-			</div>
 
-			<div class="main-header-right">
-				<ul>
-					<li><a href="features.html">Features</a></li>
-					<li><a href="how-it-works.html">How it Works</a></li> 
-					<li><a href="get-started.html">Get Started</a></li>
-					<li><a href="shop.html"><i class="fa fa-shopping-cart fa-lg"></i></a></li>
-				</ul>
-			</div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-			<div class="main-header-mobile-button"><i class="fa fa-bars fa-2x"></i></div>
-		</div>
-	</header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><span class="light">Smart</span>Hub</a>
+            </div>
 
-	<div class="main-header-mobile">
-		<ul>
-			<li><a href="features.html">Features</a></li>
-			<li><a href="how-it-works.html">How it Works</a></li> 
-			<li><a href="get-started.html">Get Started</a></li>
-			<li><a href="shop.html">Shop<i class="fa fa-shop fa-lg"></i></a></li>
-		</ul>
-	</div>
-	<!-- End Header -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li> <a class="page-scroll" href="#features">Features</a></li>
+                    <li><a class="page-scroll" href="#how-it-works">How It Works</a></li>
+                    <li><a class="page-scroll" href="#get-started">Get Started</a></li>
+                    <li><a class="page-scroll" href="#shop">Shop</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+    </nav>
 
-	<!-- Container -->
-	<div class="container">
-		<div class="carousel-outer clearfix">
-			<a class="carousel-previous" href="#/"><i class="fa fa-chevron-left fa-2x"></i></a>
-			<div class="carousel-inner">
-				<img class="image-active" src="imgs/spoons.png" />
-				<img class="image-hidden" src="imgs/blurred-room.png" />
-				<img class="image-hidden" src="imgs/blurred-spoons.png" />
-			</div>
-			<a class="carousel-next" href="#/"><i class="fa fa-chevron-right fa-2x"></i></a>
-		</div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">SmartHub</h1>
+                        <p class="intro-text">Bringing your home into the future.</p>
+                        <a href="#features" class="btn btn-circle page-scroll">
+                            <i class="fa fa-chevron-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-		<div class="slice ">
-			
-		</div>
+    <!-- About Section -->
+    <section id="features" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Features</h2>
+            </div>
+        </div>
+    </section>
 
-		<div class="slice carousel-scroll-slice">
-			<a href="#index-info" class="scroll carousel-scroll"><i class="fa fa-chevron-circle-down fa-4x"></i></a>
-		</div>
+    <!-- Download Section -->
+    <section id="how-it-works" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>how-it-works</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<div class="slice padding-top clearfix">
-			<div class="slice-item"></div>
-			<div class="slice-item"></div>
-		</div>
+    <section id="get-started" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Get Started</h2>
+            </div>
+        </div>
+    </section>
 
-		<!-- FOOTER -->
-		<footer class="footer-top">
-			<section class="footer-wrapper">
-				<div class="slice">
-					<ul class="footer-top-ul-top">
-						<li><a href="#/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-						<li><a href="#/"><i class="fa fa-youtube-square fa-2x"></i></a></li>
-						<li><a href="#/"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-						<li><a href="#/"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-					</ul>
+    <!-- Contact Section -->
+    <section id="shop" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Shop</h2>
+            </div>
+        </div>
+    </section>
 
-					<ul class="footer-top-ul-bottom">
-						<li><a href="contact.html">Blog</a></li>
-						<li><a href="#/">Our Company</a></li>
-						<li><a href="#/">Contact Us</a></li>
-						<li><a href="#/">Privacy</a></li>
-					</ul>
-				</div>
-			</section>
-		</footer>
-		
-		<footer class="footer-bottom">
-			<section class="footer-wrapper">
-				<div class="slice">
-					<h5>SmartHub</h5>
-					<p>&#169; Copyright November 2014</p>
-				</div>
-			</section>
-		</footer>
-		<!-- END FOOTERs -->
-	</div>
-	<!-- END CONTAINER -->
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </footer>
 
-	<script src="js/jquery-2.1.1.min.js"></script>
-	<script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>

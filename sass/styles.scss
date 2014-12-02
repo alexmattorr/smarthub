@@ -1,32 +1,8 @@
-// includes
-@import "includes/variables";
-
-// base
 @import "compass/reset";
-@import "base/base";
-@import "base/typography";
-@import "base/section";
-@import "base/theme";
 
-// layout
-@import "layout/slice";
-@import "layout/section";
+@import "variables";
+@import "body";
 
-// components
-@import "components/bg-hero";
-
-// modules
-@import "module/header";
-@import "module/footer";
-@import "module/img-slider";
-
-// pages
-@import "pages/home";
-@import "pages/features";
-@import "pages/get-started";
-@import "pages/how-it-works";
-
-// font-awesome
 @import "font-awesome/variables";
 @import "font-awesome/mixins";
 @import "font-awesome/path";
@@ -39,4 +15,3 @@
 @import "font-awesome/rotated-flipped";
 @import "font-awesome/stacked";
 @import "font-awesome/icons";
-
