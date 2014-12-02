@@ -21,12 +21,14 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 25px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+h2 {font-size: 40px;}
 
 p {
     margin: 0 0 25px;
@@ -201,7 +203,7 @@ a {
     &:hover,
     &:focus {
         outline: none;
-        color: $teal;
+        color: $dark-blue;
         background: $light;
     }
     i.animated {
@@ -260,11 +262,11 @@ a {
 
 .content-section {
     padding-top: 100px;
+    min-height: 500px;
 }
 
-.download-section {
+.how-it-works-section {
     width: 100%;
-    padding: 50px 0;
     color: $teal;
     background: url(../img/blurred-room.png) no-repeat center center scroll;
     background-color: $dark-blue;
@@ -281,17 +283,8 @@ a {
 }
 
 @media(min-width:$tablet) {
-    .content-section {
-        padding-top: 250px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
+    .content-section, .how-it-works-section {
+        padding-top: 200px;
     }
 }
 
@@ -342,9 +335,72 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding-top: 50px;
     p {
         margin: 0;
+    }
+}
+
+.footer-top {
+    background: $dark-blue;
+    padding: 25px 0;
+
+    ul {
+        text-align: center;
+        padding: 10px 0;
+
+        li {
+            display: inline;
+        }
+    }
+
+    
+
+    .footer-top-ul-top {
+        li {padding: 0 5px;}
+        a {
+            color: $teal;
+            transition-property: color;
+            transition-duration: .3s;
+            &:hover {color: $light;}
+        }
+    }
+
+    .footer-top-ul-bottom {
+        li {padding: 0 10px;}
+        a {
+            font-size: 14px;
+            color: $light;
+            &:hover {color: $teal;}
+        }
+    }
+}
+
+.footer-bottom {
+    padding: 25px;
+    background: $teal;
+    color: $light;
+    text-align: center;
+
+    p {font-size: 12px;}
+}
+
+@media all and (max-width: $phone) { 
+    .footer-top-ul-bottom {
+        li {
+            width: 100%;
+            display: block !important;
+            padding: 0 !important;
+
+            a {
+                display: block;
+                padding: 10px 0 !important;
+                &:hover {
+                    background: $teal !important;
+                    color: $light !important;
+                }
+            }
+        }
     }
 }
 
