@@ -16,15 +16,14 @@ html {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 50px;
     min-height: 500px;
     height: 100%;
 }
 
-@media(min-width:$tablet) {
-    .content-section, .how-it-works-section {
-        padding-top: 100px;
-    }
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
 
 .btn {
