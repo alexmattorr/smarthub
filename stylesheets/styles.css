@@ -537,16 +537,17 @@ label:hover {
   display: table;
   table-layout: fixed;
   width: 100%;
+  margin: 100px 0;
 }
 
-/* line 7, ../sass/layout/_slice.scss */
+/* line 8, ../sass/layout/_slice.scss */
 .slice-item {
   display: table-cell;
   vertical-align: top;
 }
 
 @media all and (max-width: 650px) {
-  /* line 14, ../sass/layout/_slice.scss */
+  /* line 15, ../sass/layout/_slice.scss */
   .slice > .slice-item {
     display: table-row;
   }
@@ -555,7 +556,7 @@ label:hover {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 100px 0;
   color: #FFFFFF;
   text-align: center;
@@ -689,23 +690,22 @@ label:hover {
 }
 /* line 11, ../sass/pages/_how-it-works.scss */
 .how-it-works-section .slice {
-  margin: 150px 0;
   color: #FFFFFF;
 }
-/* line 14, ../sass/pages/_how-it-works.scss */
+/* line 13, ../sass/pages/_how-it-works.scss */
 .how-it-works-section .slice .slice-item {
   text-align: left;
 }
-/* line 16, ../sass/pages/_how-it-works.scss */
+/* line 15, ../sass/pages/_how-it-works.scss */
 .how-it-works-section .slice .slice-item h5 {
   margin: 30px 0 60px 0;
   text-transform: none;
 }
-/* line 19, ../sass/pages/_how-it-works.scss */
+/* line 18, ../sass/pages/_how-it-works.scss */
 .how-it-works-section .slice .slice-item h5:first-child {
   margin-top: 0;
 }
-/* line 24, ../sass/pages/_how-it-works.scss */
+/* line 23, ../sass/pages/_how-it-works.scss */
 .how-it-works-section .slice img {
   width: 80%;
   height: auto;
@@ -713,13 +713,73 @@ label:hover {
 }
 
 @media (max-width: 650px) {
-  /* line 37, ../sass/pages/_how-it-works.scss */
+  /* line 35, ../sass/pages/_how-it-works.scss */
+  .how-it-works-section .slice .slice-item h5 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 39, ../sass/pages/_how-it-works.scss */
   .how-it-works-section .slice .slice-item h5:first-child {
     margin-top: 60px;
   }
-  /* line 43, ../sass/pages/_how-it-works.scss */
+  /* line 45, ../sass/pages/_how-it-works.scss */
   .how-it-works-section .slice img {
     width: 100%;
+  }
+}
+/* line 2, ../sass/pages/_get-started.scss */
+.get-started-section .icon-wrapper {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background: #1C8080;
+  border-left: 15px solid #56A292;
+}
+/* line 8, ../sass/pages/_get-started.scss */
+.get-started-section .icon-wrapper .fa {
+  color: #FFFFFF;
+  font-size: 10rem;
+  padding: 50px 5px 0 0;
+}
+/* line 15, ../sass/pages/_get-started.scss */
+.get-started-section h4 {
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+/* line 18, ../sass/pages/_get-started.scss */
+.get-started-section h4 span {
+  color: #56A292;
+}
+/* line 23, ../sass/pages/_get-started.scss */
+.get-started-section p {
+  width: 80%;
+  margin: 0 auto 50px auto;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+@media (max-width: 850px) {
+  /* line 33, ../sass/pages/_get-started.scss */
+  .get-started-section .icon-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+  /* line 36, ../sass/pages/_get-started.scss */
+  .get-started-section .icon-wrapper .fa {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 650px) {
+  /* line 43, ../sass/pages/_get-started.scss */
+  .get-started-section .icon-wrapper {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+  }
+  /* line 47, ../sass/pages/_get-started.scss */
+  .get-started-section .icon-wrapper .fa {
+    padding-top: 50px;
   }
 }
 /* line 1, ../sass/pages/_shop.scss */

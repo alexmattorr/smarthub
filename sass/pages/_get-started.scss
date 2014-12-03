@@ -1,0 +1,50 @@
+.get-started-section {
+	.icon-wrapper {
+		width: 250px;
+		height: 250px;
+		margin: 0 auto;
+		background: $dark-teal;
+		border-left: 15px solid $teal;
+		.fa {
+			color: $light;
+			font-size: 10rem;
+			padding: 50px 5px 0 0;
+		}
+	}
+
+	h4 {
+		margin-top: 30px;
+		color: $light;
+		span {
+			color: $teal;
+		}
+	}
+
+	p {
+		width: 80%;
+		margin: 0 auto 50px auto;
+		color: $light;
+		text-align: left;
+	}
+}
+
+@media(max-width: $tablet) {
+	.get-started-section {
+		.icon-wrapper {
+			width: 200px;
+			height: 200px;
+			.fa { padding-top: 30px; }
+		}
+	}
+}
+
+@media(max-width: $phone) {
+	.get-started-section {
+		.icon-wrapper {
+			margin-top: 50px;
+			width: 250px;
+			height: 250px;
+			.fa { padding-top: 50px;}
+		}
+	}
+}
