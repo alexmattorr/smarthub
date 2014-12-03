@@ -7,4 +7,42 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    .slice {
+    	margin: 150px 0;
+    	color: $light;
+		.slice-item {
+			text-align: left;
+			h5 {
+				margin: 30px 0 60px 0;
+				text-transform: none;
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+		}
+    	img {
+    		width: 80%;
+    		height: auto;
+    		background: $light;
+    	}
+    }
+}
+
+@media(max-width: $phone) {
+	.how-it-works-section {
+		.slice {
+			.slice-item {
+				h5 {
+					&:first-child {
+						margin-top: 60px;
+					}
+				}
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+	}
 }

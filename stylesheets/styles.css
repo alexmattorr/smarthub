@@ -84,7 +84,7 @@ html {
 
 /* line 18, ../sass/base/_body.scss */
 .content-section {
-  padding: 50px 0;
+  padding: 100px 0;
   min-height: 100%;
   /* Set to minimum height so overflow doesn't get hidden */
   overflow-y: hidden;
@@ -687,7 +687,41 @@ label:hover {
   background-size: cover;
   -o-background-size: cover;
 }
+/* line 11, ../sass/pages/_how-it-works.scss */
+.how-it-works-section .slice {
+  margin: 150px 0;
+  color: #FFFFFF;
+}
+/* line 14, ../sass/pages/_how-it-works.scss */
+.how-it-works-section .slice .slice-item {
+  text-align: left;
+}
+/* line 16, ../sass/pages/_how-it-works.scss */
+.how-it-works-section .slice .slice-item h5 {
+  margin: 30px 0 60px 0;
+  text-transform: none;
+}
+/* line 19, ../sass/pages/_how-it-works.scss */
+.how-it-works-section .slice .slice-item h5:first-child {
+  margin-top: 0;
+}
+/* line 24, ../sass/pages/_how-it-works.scss */
+.how-it-works-section .slice img {
+  width: 80%;
+  height: auto;
+  background: #FFFFFF;
+}
 
+@media (max-width: 650px) {
+  /* line 37, ../sass/pages/_how-it-works.scss */
+  .how-it-works-section .slice .slice-item h5:first-child {
+    margin-top: 60px;
+  }
+  /* line 43, ../sass/pages/_how-it-works.scss */
+  .how-it-works-section .slice img {
+    width: 100%;
+  }
+}
 /* line 1, ../sass/pages/_shop.scss */
 .shop-section {
   width: 100%;
