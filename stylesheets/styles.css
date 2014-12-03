@@ -532,6 +532,25 @@ label:hover {
     margin: 20px 0 !important;
   }
 }
+/* line 1, ../sass/layout/_slice.scss */
+.slice {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* line 7, ../sass/layout/_slice.scss */
+.slice-item {
+  display: table-cell;
+  vertical-align: top;
+}
+
+@media all and (max-width: 650px) {
+  /* line 14, ../sass/layout/_slice.scss */
+  .slice > .slice-item {
+    display: table-row;
+  }
+}
 /* line 1, ../sass/pages/_intro.scss */
 .intro {
   display: table;
