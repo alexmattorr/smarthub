@@ -788,17 +788,61 @@ label:hover {
 /* line 1, ../sass/pages/_shop.scss */
 .shop-section {
   width: 100%;
-  height: 400px;
+  text-align: center;
+}
+/* line 5, ../sass/pages/_shop.scss */
+.shop-section img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid gray;
+}
+
+/* line 12, ../sass/pages/_shop.scss */
+.shop-section-top {
   color: #283D4C;
   background-color: #FFFFFF;
 }
 
-/* line 8, ../sass/pages/_shop.scss */
+/* line 17, ../sass/pages/_shop.scss */
 .shop-section-bottom {
-  width: 100%;
-  height: 400px;
   color: #FFFFFF;
   background-color: #283D4C;
+}
+
+/* line 22, ../sass/pages/_shop.scss */
+.shop-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 25px;
+}
+/* line 28, ../sass/pages/_shop.scss */
+.shop-btn .fa {
+  padding-right: 10px;
+}
+
+/* line 33, ../sass/pages/_shop.scss */
+.shop-btn-top {
+  color: #283D4C;
+  border: 7px solid #283D4C;
+}
+/* line 36, ../sass/pages/_shop.scss */
+.shop-btn-top:hover {
+  color: #FFFFFF;
+  background: #56A292;
+  border-color: #56A292;
+}
+
+/* line 43, ../sass/pages/_shop.scss */
+.shop-btn-btm {
+  color: #FFFFFF;
+  border: 7px solid #56A292;
+}
+/* line 46, ../sass/pages/_shop.scss */
+.shop-btn-btm:hover {
+  color: #FFFFFF;
+  background: #56A292;
 }
 
 /* FONT PATH
