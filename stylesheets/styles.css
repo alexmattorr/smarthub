@@ -84,11 +84,9 @@ html {
 
 /* line 18, ../sass/base/_body.scss */
 .content-section {
-  padding: 100px 0;
-  min-height: 100%;
-  /* Set to minimum height so overflow doesn't get hidden */
+  padding-top: 100px;
   overflow-y: hidden;
-  /* HIDE overflow; I know, it doesn't make much sense */
+  text-align: center;
 }
 
 /* line 24, ../sass/base/_body.scss */
@@ -125,14 +123,14 @@ html {
 /* line 52, ../sass/base/_body.scss */
 ::-moz-selection {
   text-shadow: none;
-  background: #fcfcfc;
+  background: #56A292;
   background: #56A292;
 }
 
 /* line 58, ../sass/base/_body.scss */
 ::selection {
   text-shadow: none;
-  background: #fcfcfc;
+  background: #56A292;
   background: #56A292;
 }
 
@@ -433,7 +431,7 @@ footer p {
   position: absolute;
   left: 0;
 }
-/* line 45, ../sass/components/_tabs.scss */
+/* line 44, ../sass/components/_tabs.scss */
 .tabs .tab-content ul {
   columns: 2;
   column-gap: 50px;
@@ -442,7 +440,7 @@ footer p {
   -moz-columns: 2;
   -moz-column-gap: 50px;
 }
-/* line 52, ../sass/components/_tabs.scss */
+/* line 51, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li {
   width: 100%;
   float: left;
@@ -452,32 +450,32 @@ footer p {
   color: #FFFFFF;
   border-bottom: solid 2px #1C8080;
 }
-/* line 61, ../sass/components/_tabs.scss */
+/* line 60, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li i {
   color: #56A292;
 }
-/* line 62, ../sass/components/_tabs.scss */
+/* line 61, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li h5 {
   display: inline-block;
   margin-bottom: 0;
   margin-left: 15px;
 }
-/* line 67, ../sass/components/_tabs.scss */
+/* line 66, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li p {
   margin: 0 0 0 40px;
   font-size: 16px;
 }
-/* line 75, ../sass/components/_tabs.scss */
+/* line 74, ../sass/components/_tabs.scss */
 .tabs [id^="tab"]:checked + label {
   padding-top: 15px;
   color: #56A292;
 }
-/* line 79, ../sass/components/_tabs.scss */
+/* line 78, ../sass/components/_tabs.scss */
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
 }
 
-/* line 84, ../sass/components/_tabs.scss */
+/* line 83, ../sass/components/_tabs.scss */
 label {
   display: block;
   padding: 14px 21px;
@@ -490,44 +488,44 @@ label {
   transition-property: color;
   transition-duration: .3s;
 }
-/* line 96, ../sass/components/_tabs.scss */
+/* line 95, ../sass/components/_tabs.scss */
 label:hover {
   color: #56A292;
 }
 
 @media (max-width: 650px) {
-  /* line 101, ../sass/components/_tabs.scss */
+  /* line 100, ../sass/components/_tabs.scss */
   [id^="tab"]:checked + label {
     color: #1A262E !important;
     background: #56A292 !important;
     padding: 14px !important;
   }
 
-  /* line 106, ../sass/components/_tabs.scss */
+  /* line 105, ../sass/components/_tabs.scss */
   .tabs label {
     padding: 14px 0;
     background: #1C8080;
   }
-  /* line 111, ../sass/components/_tabs.scss */
+  /* line 110, ../sass/components/_tabs.scss */
   .tabs li .fa-5x {
     font-size: 2rem;
   }
-  /* line 112, ../sass/components/_tabs.scss */
+  /* line 111, ../sass/components/_tabs.scss */
   .tabs li h4, .tabs li p {
     display: none;
   }
 
-  /* line 115, ../sass/components/_tabs.scss */
+  /* line 114, ../sass/components/_tabs.scss */
   .tab-content {
     height: auto !important;
   }
-  /* line 117, ../sass/components/_tabs.scss */
+  /* line 116, ../sass/components/_tabs.scss */
   .tab-content ul {
     columns: 1 !important;
     -webkit-columns: 1 !important;
     -moz-columns: 1 !important;
   }
-  /* line 121, ../sass/components/_tabs.scss */
+  /* line 120, ../sass/components/_tabs.scss */
   .tab-content ul li {
     margin: 20px 0 !important;
   }
@@ -617,7 +615,7 @@ label:hover {
 /* line 56, ../sass/pages/_intro.scss */
 .btn-circle:hover, .btn-circle:focus {
   outline: none;
-  color: #1A262E;
+  color: #FFFFFF;
   background: #56A292;
   border-color: #56A292;
 }
@@ -677,6 +675,11 @@ label:hover {
     }
 } 
 */
+/* line 1, ../sass/pages/_features.scss */
+.features {
+  min-height: 950px;
+}
+
 /* line 1, ../sass/pages/_how-it-works.scss */
 .how-it-works-section {
   width: 100%;
@@ -785,8 +788,17 @@ label:hover {
 /* line 1, ../sass/pages/_shop.scss */
 .shop-section {
   width: 100%;
-  color: #56A292;
+  height: 400px;
+  color: #283D4C;
   background-color: #FFFFFF;
+}
+
+/* line 8, ../sass/pages/_shop.scss */
+.shop-section-bottom {
+  width: 100%;
+  height: 400px;
+  color: #FFFFFF;
+  background-color: #283D4C;
 }
 
 /* FONT PATH
