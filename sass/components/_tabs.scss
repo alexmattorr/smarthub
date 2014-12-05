@@ -19,7 +19,7 @@
   label {
     display: block;
     padding: 14px 21px;
-    color: $light;
+    color: $blue;
     font-size: 20px;
     font-weight: normal;
     cursor: pointer;
@@ -55,8 +55,8 @@
         text-align: left;
         padding-bottom: 15px;
 
-        color: $light;
-        border-bottom: solid 2px $dark-teal;
+        color: $blue;
+        border-bottom: solid 2px $teal;
         i {color: $teal;}
         h5 {
           display: inline-block;
@@ -83,7 +83,7 @@
 label {
     display: block;
     padding: 14px 21px;
-    color: $light;
+    color: $blue;
     font-size: 20px;
     font-weight: normal;
     cursor: pointer;
@@ -98,13 +98,13 @@ label {
   }
 @media(max-width: $phone) {
   [id^="tab"]:checked + label {
-    color: $dark-blue !important;
+    color: $blue !important;
     background: $teal !important;
     padding: 14px !important;}
   .tabs {
     label {
       padding: 14px 0;
-      background: $dark-teal;
+      background: $teal;
     }
     li {
       .fa-5x {font-size: 2rem;}

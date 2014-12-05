@@ -65,6 +65,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* 
+$light: #FFFFFF;
+$gray: #8C9BA2;
+
+$teal: #56A292;
+$dark-teal: #1C8080;
+
+$blue: #283D4C;
+$dark-blue: #1A262E; 
+*/
 /* line 3, ../sass/base/_body.scss */
 body {
   width: 100%;
@@ -72,8 +82,8 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #56A292;
-  background-color: #1A262E;
+  color: #2A2C2B;
+  background-color: #FFFFFF;
 }
 
 /* line 13, ../sass/base/_body.scss */
@@ -115,16 +125,16 @@ html {
 
 /* line 45, ../sass/base/_body.scss */
 .btn-default {
-  border: 1px solid #1C8080;
-  color: #1C8080;
+  border: 1px solid #56A292;
+  color: #56A292;
   background-color: transparent;
 }
 /* line 49, ../sass/base/_body.scss */
 .btn-default:hover, .btn-default:focus {
-  border: 1px solid #1C8080;
+  border: 1px solid #56A292;
   outline: none;
-  color: #1A262E;
-  background-color: #1C8080;
+  color: #FFFFFF;
+  background-color: #56A292;
 }
 
 /* line 58, ../sass/base/_body.scss */
@@ -207,7 +217,7 @@ p {
 }
 /* line 33, ../sass/base/_typography.scss */
 a {
-  color: #1C8080;
+  color: #283D4C;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -215,7 +225,7 @@ a {
 /* line 38, ../sass/base/_typography.scss */
 a:hover, a:focus {
   text-decoration: none;
-  color: #0a2c2c;
+  color: #56A292;
 }
 
 /* line 45, ../sass/base/_typography.scss */
@@ -230,7 +240,7 @@ a:hover, a:focus {
   border-bottom: 5px solid #56A292;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  background-color: #1A262E;
+  background-color: #283D4C;
 }
 /* line 8, ../sass/modules/_header.scss */
 .navbar-custom .navbar-brand {
@@ -298,7 +308,7 @@ a:hover, a:focus {
   /* line 69, ../sass/modules/_header.scss */
   .top-nav-collapse {
     padding: 0;
-    background-color: #1A262E;
+    background-color: #283D4C;
   }
 
   /* line 74, ../sass/modules/_header.scss */
@@ -308,80 +318,81 @@ a:hover, a:focus {
 }
 /* line 1, ../sass/modules/_footer.scss */
 footer {
+  background: #283D4C;
   padding-top: 50px;
 }
-/* line 3, ../sass/modules/_footer.scss */
+/* line 4, ../sass/modules/_footer.scss */
 footer p {
   margin: 0;
 }
 
-/* line 8, ../sass/modules/_footer.scss */
+/* line 9, ../sass/modules/_footer.scss */
 .footer-top {
-  background: #1A262E;
+  background: #283D4C;
   padding: 25px 0;
 }
-/* line 12, ../sass/modules/_footer.scss */
+/* line 13, ../sass/modules/_footer.scss */
 .footer-top ul {
   text-align: center;
   padding: 10px 0;
 }
-/* line 16, ../sass/modules/_footer.scss */
+/* line 17, ../sass/modules/_footer.scss */
 .footer-top ul li {
   display: inline;
 }
-/* line 24, ../sass/modules/_footer.scss */
+/* line 25, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-top li {
   padding: 0 5px;
 }
-/* line 25, ../sass/modules/_footer.scss */
+/* line 26, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-top a {
   color: #56A292;
   transition-property: color;
   transition-duration: .3s;
 }
-/* line 29, ../sass/modules/_footer.scss */
+/* line 30, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-top a:hover {
   color: #FFFFFF;
 }
-/* line 34, ../sass/modules/_footer.scss */
+/* line 35, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-bottom li {
   padding: 0 10px;
 }
-/* line 35, ../sass/modules/_footer.scss */
+/* line 36, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-bottom a {
   font-size: 14px;
   color: #FFFFFF;
 }
-/* line 38, ../sass/modules/_footer.scss */
+/* line 39, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-bottom a:hover {
   color: #56A292;
 }
 
-/* line 43, ../sass/modules/_footer.scss */
+/* line 44, ../sass/modules/_footer.scss */
 .footer-bottom {
   padding: 25px;
   background: #56A292;
   color: #FFFFFF;
   text-align: center;
 }
-/* line 49, ../sass/modules/_footer.scss */
+/* line 50, ../sass/modules/_footer.scss */
 .footer-bottom p {
   font-size: 12px;
 }
 
 @media all and (max-width: 650px) {
-  /* line 54, ../sass/modules/_footer.scss */
+  /* line 55, ../sass/modules/_footer.scss */
   .footer-top-ul-bottom li {
     width: 100%;
     display: block !important;
     padding: 0 !important;
   }
-  /* line 59, ../sass/modules/_footer.scss */
+  /* line 60, ../sass/modules/_footer.scss */
   .footer-top-ul-bottom li a {
     display: block;
     padding: 10px 0 !important;
   }
-  /* line 62, ../sass/modules/_footer.scss */
+  /* line 63, ../sass/modules/_footer.scss */
   .footer-top-ul-bottom li a:hover {
     background: #56A292 !important;
     color: #FFFFFF !important;
@@ -415,7 +426,7 @@ footer p {
 .tabs label {
   display: block;
   padding: 14px 21px;
-  color: #FFFFFF;
+  color: #283D4C;
   font-size: 20px;
   font-weight: normal;
   cursor: pointer;
@@ -455,8 +466,8 @@ footer p {
   margin: 20px 0;
   text-align: left;
   padding-bottom: 15px;
-  color: #FFFFFF;
-  border-bottom: solid 2px #1C8080;
+  color: #283D4C;
+  border-bottom: solid 2px #56A292;
 }
 /* line 60, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li i {
@@ -487,7 +498,7 @@ footer p {
 label {
   display: block;
   padding: 14px 21px;
-  color: #FFFFFF;
+  color: #283D4C;
   font-size: 20px;
   font-weight: normal;
   cursor: pointer;
@@ -504,7 +515,7 @@ label:hover {
 @media (max-width: 650px) {
   /* line 100, ../sass/components/_tabs.scss */
   [id^="tab"]:checked + label {
-    color: #1A262E !important;
+    color: #283D4C !important;
     background: #56A292 !important;
     padding: 14px !important;
   }
@@ -512,7 +523,7 @@ label:hover {
   /* line 105, ../sass/components/_tabs.scss */
   .tabs label {
     padding: 14px 0;
-    background: #1C8080;
+    background: #56A292;
   }
   /* line 110, ../sass/components/_tabs.scss */
   .tabs li .fa-5x {
@@ -567,7 +578,7 @@ label:hover {
   color: #FFFFFF;
   text-align: center;
   background: url(../img/blurred-spoons.png) no-repeat bottom center scroll;
-  background-color: #1A262E;
+  background-color: #283D4C;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -628,61 +639,6 @@ label:hover {
   border-color: #56A292;
 }
 
-/*     
-    i.animated {
-        -webkit-transition-property: -webkit-transform;
-        -webkit-transition-duration: 1s;
-        -moz-transition-property: -moz-transform;
-        -moz-transition-duration: 1s;
-    }
-    &:hover {
-        i.animated {
-            -webkit-animation-name: pulse;
-            -moz-animation-name: pulse;
-            -webkit-animation-duration: 1.5s;
-            -moz-animation-duration: 1.5s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: linear;
-            -moz-animation-timing-function: linear;
-        }
-    }
-}
-
- @-webkit-keyframes pulse {    
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {    
-    0% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-} 
-*/
 /* line 1, ../sass/pages/_features.scss */
 .features {
   min-height: 950px;
@@ -693,7 +649,7 @@ label:hover {
   width: 100%;
   color: #56A292;
   background: url(../img/blurred-room.png) no-repeat center center scroll;
-  background-color: #1A262E;
+  background-color: #283D4C;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -740,54 +696,58 @@ label:hover {
   }
 }
 /* line 2, ../sass/pages/_get-started.scss */
+.get-started-section h2 {
+  color: #56A292;
+}
+/* line 3, ../sass/pages/_get-started.scss */
 .get-started-section .icon-wrapper {
   width: 250px;
   height: 250px;
   margin: 0 auto;
-  background: #1C8080;
-  border-left: 15px solid #56A292;
+  background: #56A292;
+  border-left: 15px solid #283D4C;
 }
-/* line 8, ../sass/pages/_get-started.scss */
+/* line 9, ../sass/pages/_get-started.scss */
 .get-started-section .icon-wrapper .fa {
   color: #FFFFFF;
   font-size: 10rem;
   padding: 50px 5px 0 0;
 }
-/* line 15, ../sass/pages/_get-started.scss */
+/* line 16, ../sass/pages/_get-started.scss */
 .get-started-section h4 {
   margin-top: 30px;
-  color: #FFFFFF;
+  color: #2A2C2B;
 }
-/* line 18, ../sass/pages/_get-started.scss */
+/* line 19, ../sass/pages/_get-started.scss */
 .get-started-section h4 span {
   color: #56A292;
 }
-/* line 23, ../sass/pages/_get-started.scss */
+/* line 24, ../sass/pages/_get-started.scss */
 .get-started-section p {
   width: 80%;
   margin: 0 auto 50px auto;
-  color: #FFFFFF;
+  color: #2A2C2B;
 }
 
 @media (max-width: 850px) {
-  /* line 32, ../sass/pages/_get-started.scss */
+  /* line 33, ../sass/pages/_get-started.scss */
   .get-started-section .icon-wrapper {
     width: 200px;
     height: 200px;
   }
-  /* line 35, ../sass/pages/_get-started.scss */
+  /* line 36, ../sass/pages/_get-started.scss */
   .get-started-section .icon-wrapper .fa {
     padding-top: 30px;
   }
 }
 @media (max-width: 650px) {
-  /* line 42, ../sass/pages/_get-started.scss */
+  /* line 43, ../sass/pages/_get-started.scss */
   .get-started-section .icon-wrapper {
     margin-top: 50px;
     width: 250px;
     height: 250px;
   }
-  /* line 46, ../sass/pages/_get-started.scss */
+  /* line 47, ../sass/pages/_get-started.scss */
   .get-started-section .icon-wrapper .fa {
     padding-top: 50px;
   }
@@ -840,23 +800,22 @@ label:hover {
 /* line 39, ../sass/pages/_shop.scss */
 .shop-btn-top:hover {
   color: #FFFFFF;
-  background: #56A292;
-  border-color: #56A292;
+  background: #283D4C;
 }
 
-/* line 46, ../sass/pages/_shop.scss */
+/* line 45, ../sass/pages/_shop.scss */
 .shop-btn-btm {
   color: #FFFFFF;
   border: 7px solid #56A292;
 }
-/* line 49, ../sass/pages/_shop.scss */
+/* line 48, ../sass/pages/_shop.scss */
 .shop-btn-btm:hover {
   color: #FFFFFF;
   background: #56A292;
 }
 
 @media (max-width: 650px) {
-  /* line 57, ../sass/pages/_shop.scss */
+  /* line 56, ../sass/pages/_shop.scss */
   .shop-section .slice {
     min-height: 500px;
   }

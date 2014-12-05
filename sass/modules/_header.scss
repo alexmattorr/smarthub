@@ -4,7 +4,7 @@
     border-bottom: 5px solid $teal;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    background-color: $dark-blue;
+    background-color: $blue;
     .navbar-brand {
         font-weight: 700;
         &:focus {
@@ -68,7 +68,7 @@
 
     .top-nav-collapse {
         padding: 0;
-        background-color: $dark-blue;
+        background-color: $blue;
     }
 
     .navbar-custom.top-nav-collapse {

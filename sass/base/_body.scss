@@ -6,8 +6,8 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: $teal;
-    background-color: $dark-blue;
+    color: $coal;
+    background-color: $light;
 }
 
 html {
@@ -43,15 +43,15 @@ html {
 }
 
 .btn-default {
-    border: 1px solid $dark-teal;
-    color: $dark-teal;
+    border: 1px solid $teal;
+    color: $teal;
     background-color: transparent;
     &:hover,
     &:focus {
-        border: 1px solid $dark-teal;
+        border: 1px solid $teal;
         outline: none;
-        color: $dark-blue;
-        background-color: $dark-teal;
+        color: $light;
+        background-color: $teal;
     }
 }
 

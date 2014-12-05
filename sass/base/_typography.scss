@@ -31,14 +31,14 @@ p {
 }
 
 a {
-    color: $dark-teal;
+    color: $blue;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken($dark-teal,20%);
+        color: $teal;
     }
 }
 
