@@ -19,18 +19,12 @@
   label {
     display: block;
     padding: 14px 21px;
-    color: $blue;
+    color: $light;
     font-size: 20px;
     font-weight: normal;
     cursor: pointer;
     position: relative;
     top: 4px;
-
-    transition-property: color;
-    transition-duration: .3s;
-    &:hover {
-      color: $teal;
-    }
   }
   .tab-content{
     z-index: 2;
@@ -55,8 +49,8 @@
         text-align: left;
         padding-bottom: 15px;
 
-        color: $blue;
-        border-bottom: solid 2px $teal;
+        color: $light;
+        border-bottom: solid 2px $light;
         i {color: $teal;}
         h5 {
           display: inline-block;
@@ -83,7 +77,7 @@
 label {
     display: block;
     padding: 14px 21px;
-    color: $blue;
+    color: $light;
     font-size: 20px;
     font-weight: normal;
     cursor: pointer;
@@ -92,13 +86,10 @@ label {
 
     transition-property: color;
     transition-duration: .3s;
-    &:hover {
-      color: $teal;
-    }
   }
 @media(max-width: $phone) {
   [id^="tab"]:checked + label {
-    color: $blue !important;
+    color: $light !important;
     background: $teal !important;
     padding: 14px !important;}
   .tabs {

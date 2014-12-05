@@ -1,15 +1,15 @@
 .how-it-works-section {
     width: 100%;
     color: $teal;
-    background: url(../img/blurred-room.png) no-repeat center center scroll;
-    background-color: $blue;
+    // background: url(../img/blurred-room.png) no-repeat center center scroll;
+    background: $light;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 
     .slice {
-    	color: $light;
+    	color: $coal;
 		.slice-item {
 			text-align: left;
 			h5 {

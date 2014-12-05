@@ -3,10 +3,10 @@
     width: 100%;
     height: 100%;
     padding: 100px 0;
-    color: $light;
+    color: $teal;
     text-align: center;
-    background: url(../img/blurred-spoons.png) no-repeat bottom center scroll;
-    background-color: $blue;
+    background: url(../img/home.jpg) no-repeat bottom center scroll;
+    background-color: $light;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -29,7 +29,7 @@
         height: 100%;
         padding: 0;
         .intro-body {
-            color: $light;
+            color: $teal;
             .brand-heading {
                 font-size: 100px;
             }
@@ -45,10 +45,10 @@
     width: 70px;
     height: 70px;
     margin-top: 15px;
-    border: 2px solid $light;
+    border: 2px solid $teal;
     border-radius: 35px;
     font-size: 40px;
-    color: $light;
+    color: $teal;
     background: transparent;
     transition-property: border, color, background;
     transition-timing-function: ease-in-out;
@@ -57,7 +57,7 @@
     &:focus {
         outline: none;
         color: $light;
-        background: $teal;
-        border-color: $teal;
+        background: $coal;
+        border-color: $coal;
     }
 }
