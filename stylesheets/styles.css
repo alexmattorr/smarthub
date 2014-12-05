@@ -96,6 +96,13 @@ html {
 }
 
 /* line 29, ../sass/base/_body.scss */
+.bold {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 35, ../sass/base/_body.scss */
 .btn {
   padding: 4px 12px;
   text-transform: uppercase;
@@ -106,13 +113,13 @@ html {
   transition: all .3s ease-in-out;
 }
 
-/* line 39, ../sass/base/_body.scss */
+/* line 45, ../sass/base/_body.scss */
 .btn-default {
   border: 1px solid #1C8080;
   color: #1C8080;
   background-color: transparent;
 }
-/* line 43, ../sass/base/_body.scss */
+/* line 49, ../sass/base/_body.scss */
 .btn-default:hover, .btn-default:focus {
   border: 1px solid #1C8080;
   outline: none;
@@ -120,31 +127,31 @@ html {
   background-color: #1C8080;
 }
 
-/* line 52, ../sass/base/_body.scss */
+/* line 58, ../sass/base/_body.scss */
 ::-moz-selection {
   text-shadow: none;
   background: #56A292;
   background: #56A292;
 }
 
-/* line 58, ../sass/base/_body.scss */
+/* line 64, ../sass/base/_body.scss */
 ::selection {
   text-shadow: none;
   background: #56A292;
   background: #56A292;
 }
 
-/* line 64, ../sass/base/_body.scss */
+/* line 70, ../sass/base/_body.scss */
 img::selection {
   background: transparent;
 }
 
-/* line 68, ../sass/base/_body.scss */
+/* line 74, ../sass/base/_body.scss */
 img::-moz-selection {
   background: transparent;
 }
 
-/* line 72, ../sass/base/_body.scss */
+/* line 78, ../sass/base/_body.scss */
 body {
   webkit-tap-highlight-color: #56A292;
 }
@@ -760,28 +767,27 @@ label:hover {
   width: 80%;
   margin: 0 auto 50px auto;
   color: #FFFFFF;
-  text-align: left;
 }
 
 @media (max-width: 850px) {
-  /* line 33, ../sass/pages/_get-started.scss */
+  /* line 32, ../sass/pages/_get-started.scss */
   .get-started-section .icon-wrapper {
     width: 200px;
     height: 200px;
   }
-  /* line 36, ../sass/pages/_get-started.scss */
+  /* line 35, ../sass/pages/_get-started.scss */
   .get-started-section .icon-wrapper .fa {
     padding-top: 30px;
   }
 }
 @media (max-width: 650px) {
-  /* line 43, ../sass/pages/_get-started.scss */
+  /* line 42, ../sass/pages/_get-started.scss */
   .get-started-section .icon-wrapper {
     margin-top: 50px;
     width: 250px;
     height: 250px;
   }
-  /* line 47, ../sass/pages/_get-started.scss */
+  /* line 46, ../sass/pages/_get-started.scss */
   .get-started-section .icon-wrapper .fa {
     padding-top: 50px;
   }
