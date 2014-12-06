@@ -29,7 +29,7 @@
         height: 100%;
         padding: 0;
         .intro-body {
-            color: $teal;
+            color: $light;
             .brand-heading {
                 font-size: 100px;
             }
@@ -45,10 +45,10 @@
     width: 70px;
     height: 70px;
     margin-top: 15px;
-    border: 2px solid $teal;
+    border: 2px solid $light;
     border-radius: 35px;
     font-size: 40px;
-    color: $teal;
+    color: $light;
     background: transparent;
     transition-property: border, color, background;
     transition-timing-function: ease-in-out;
@@ -57,7 +57,7 @@
     &:focus {
         outline: none;
         color: $light;
-        background: $coal;
-        border-color: $coal;
+        background: $teal;
+        border-color: $teal;
     }
 }
