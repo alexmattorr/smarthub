@@ -1,5 +1,5 @@
 footer {
-    background: $blue;
+    background: $teal;
     padding-top: 50px;
     p {
         margin: 0;
@@ -7,7 +7,7 @@ footer {
 }
 
 .footer-top {
-    background: $blue;
+    background: $teal;
     padding: 25px 0;
 
     ul {
@@ -24,10 +24,10 @@ footer {
     .footer-top-ul-top {
         li {padding: 0 5px;}
         a {
-            color: $teal;
+            color: $light;
             transition-property: color;
             transition-duration: .3s;
-            &:hover {color: $light;}
+            &:hover {color: $blue;}
         }
     }
 
@@ -36,15 +36,15 @@ footer {
         a {
             font-size: 14px;
             color: $light;
-            &:hover {color: $teal;}
+            &:hover {color: $blue;}
         }
     }
 }
 
 .footer-bottom {
     padding: 25px;
-    background: $teal;
-    color: $light;
+    background: $light;
+    color: $teal;
     text-align: center;
 
     p {font-size: 12px;}

@@ -327,7 +327,7 @@ a:hover, a:focus {
 }
 /* line 1, ../sass/modules/_footer.scss */
 footer {
-  background: #17232B;
+  background: #56A292;
   padding-top: 50px;
 }
 /* line 4, ../sass/modules/_footer.scss */
@@ -337,7 +337,7 @@ footer p {
 
 /* line 9, ../sass/modules/_footer.scss */
 .footer-top {
-  background: #17232B;
+  background: #56A292;
   padding: 25px 0;
 }
 /* line 13, ../sass/modules/_footer.scss */
@@ -355,13 +355,13 @@ footer p {
 }
 /* line 26, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-top a {
-  color: #56A292;
+  color: #FFFFFF;
   transition-property: color;
   transition-duration: .3s;
 }
 /* line 30, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-top a:hover {
-  color: #FFFFFF;
+  color: #17232B;
 }
 /* line 35, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-bottom li {
@@ -374,14 +374,14 @@ footer p {
 }
 /* line 39, ../sass/modules/_footer.scss */
 .footer-top .footer-top-ul-bottom a:hover {
-  color: #56A292;
+  color: #17232B;
 }
 
 /* line 44, ../sass/modules/_footer.scss */
 .footer-bottom {
   padding: 25px;
-  background: #56A292;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #56A292;
   text-align: center;
 }
 /* line 50, ../sass/modules/_footer.scss */
