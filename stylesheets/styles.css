@@ -764,26 +764,26 @@ label {
   width: 100%;
   text-align: center;
 }
-/* line 5, ../sass/pages/_shop.scss */
+/* line 10, ../sass/pages/_shop.scss */
 .shop-section img {
   width: 100%;
   height: 250px;
   border: 1px solid gray;
 }
 
-/* line 12, ../sass/pages/_shop.scss */
+/* line 17, ../sass/pages/_shop.scss */
 .shop-section-top {
   color: #17232B;
   background-color: #FFFFFF;
 }
 
-/* line 17, ../sass/pages/_shop.scss */
+/* line 22, ../sass/pages/_shop.scss */
 .shop-section-bottom {
   color: #FFFFFF;
   background-color: #17232B;
 }
 
-/* line 22, ../sass/pages/_shop.scss */
+/* line 27, ../sass/pages/_shop.scss */
 .shop-btn {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -794,35 +794,35 @@ label {
   width: 250px;
   margin: 25px auto;
 }
-/* line 31, ../sass/pages/_shop.scss */
+/* line 36, ../sass/pages/_shop.scss */
 .shop-btn .fa {
   padding-right: 10px;
 }
 
-/* line 36, ../sass/pages/_shop.scss */
+/* line 41, ../sass/pages/_shop.scss */
 .shop-btn-top {
   color: #17232B;
   border: 7px solid #17232B;
 }
-/* line 39, ../sass/pages/_shop.scss */
+/* line 44, ../sass/pages/_shop.scss */
 .shop-btn-top:hover {
   color: #FFFFFF;
   background: #17232B;
 }
 
-/* line 45, ../sass/pages/_shop.scss */
+/* line 50, ../sass/pages/_shop.scss */
 .shop-btn-btm {
   color: #FFFFFF;
   border: 7px solid #56A292;
 }
-/* line 48, ../sass/pages/_shop.scss */
+/* line 53, ../sass/pages/_shop.scss */
 .shop-btn-btm:hover {
   color: #FFFFFF;
   background: #56A292;
 }
 
 @media (max-width: 650px) {
-  /* line 56, ../sass/pages/_shop.scss */
+  /* line 61, ../sass/pages/_shop.scss */
   .shop-section .slice {
     min-height: 500px;
   }
