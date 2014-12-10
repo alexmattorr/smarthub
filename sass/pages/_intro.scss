@@ -50,14 +50,22 @@
     font-size: 40px;
     color: $light;
     background: transparent;
-    transition-property: border, color, background;
-    transition-timing-function: ease-in-out;
-    transition-duration: .3s;
+    
+    -moz-box-shadow: 0 0 25px #ccc;
+    -webkit-box-shadow: 0 0 25px #ccc;
+    box-shadow: 0 0 25px #fff;
+    
+    transition-property: border, color, background, box-shadow;
+    // transition-timing-function: ease-in-out;s
+    transition-duration: .5s;
     &:hover,
     &:focus {
         outline: none;
         color: $light;
         background: $teal;
         border-color: $teal;
+        -moz-box-shadow: 0 0 100px #ccc;
+        -webkit-box-shadow: 0 0 100px #ccc;
+        box-shadow: 0 0 100px #fff;
     }
 }

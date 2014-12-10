@@ -626,16 +626,21 @@ label {
   font-size: 40px;
   color: #FFFFFF;
   background: transparent;
-  transition-property: border, color, background;
-  transition-timing-function: ease-in-out;
-  transition-duration: .3s;
+  -moz-box-shadow: 0 0 25px #ccc;
+  -webkit-box-shadow: 0 0 25px #ccc;
+  box-shadow: 0 0 25px #fff;
+  transition-property: border, color, background, box-shadow;
+  transition-duration: .5s;
 }
-/* line 56, ../sass/pages/_intro.scss */
+/* line 61, ../sass/pages/_intro.scss */
 .btn-circle:hover, .btn-circle:focus {
   outline: none;
   color: #FFFFFF;
   background: #56A292;
   border-color: #56A292;
+  -moz-box-shadow: 0 0 100px #ccc;
+  -webkit-box-shadow: 0 0 100px #ccc;
+  box-shadow: 0 0 100px #fff;
 }
 
 /* line 1, ../sass/pages/_features.scss */
