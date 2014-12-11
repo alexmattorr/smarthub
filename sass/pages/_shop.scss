@@ -47,6 +47,21 @@
 	}
 }
 
+.swf-bg {
+	background: url(../img/iphone1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 359px 655px;
+	width: 400px;
+	height: 670px;
+	margin: 0 auto;
+
+	embed {
+		margin-top: 116px;
+		margin-right: 4px;
+	}
+}
+
 .shop-btn-btm {
 	color: $light;
 	border: 7px solid $teal;
@@ -59,5 +74,16 @@
 @media(max-width: $phone) {
 	.shop-section {
 		.slice {min-height: 500px;}
+	}
+	.swf-bg {
+		background-size: 359px 655px;
+		width: auto;
+		height: 581px;
+		margin: 0;
+
+		embed {
+			margin-top: 71px;
+			margin-right: 6px;
+		}
 	}
 }

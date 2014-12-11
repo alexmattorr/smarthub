@@ -816,20 +816,49 @@ label {
 }
 
 /* line 50, ../sass/pages/_shop.scss */
+.swf-bg {
+  background: url(../img/iphone1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 359px 655px;
+  width: 400px;
+  height: 670px;
+  margin: 0 auto;
+}
+/* line 59, ../sass/pages/_shop.scss */
+.swf-bg embed {
+  margin-top: 116px;
+  margin-right: 4px;
+}
+
+/* line 65, ../sass/pages/_shop.scss */
 .shop-btn-btm {
   color: #FFFFFF;
   border: 7px solid #56A292;
 }
-/* line 53, ../sass/pages/_shop.scss */
+/* line 68, ../sass/pages/_shop.scss */
 .shop-btn-btm:hover {
   color: #FFFFFF;
   background: #56A292;
 }
 
 @media (max-width: 650px) {
-  /* line 61, ../sass/pages/_shop.scss */
+  /* line 76, ../sass/pages/_shop.scss */
   .shop-section .slice {
     min-height: 500px;
+  }
+
+  /* line 78, ../sass/pages/_shop.scss */
+  .swf-bg {
+    background-size: 359px 655px;
+    width: auto;
+    height: 581px;
+    margin: 0;
+  }
+  /* line 84, ../sass/pages/_shop.scss */
+  .swf-bg embed {
+    margin-top: 71px;
+    margin-right: 6px;
   }
 }
 /* FONT PATH
