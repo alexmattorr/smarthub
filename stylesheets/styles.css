@@ -94,25 +94,29 @@ html {
 
 /* line 18, ../sass/base/_body.scss */
 .content-section {
-  padding-top: 100px;
   overflow-y: hidden;
   text-align: center;
 }
 
-/* line 24, ../sass/base/_body.scss */
+/* line 23, ../sass/base/_body.scss */
+.row {
+  padding-top: 100px;
+}
+
+/* line 27, ../sass/base/_body.scss */
 .clearfix {
   overflow: auto;
   zoom: 1;
 }
 
-/* line 29, ../sass/base/_body.scss */
+/* line 32, ../sass/base/_body.scss */
 .bold {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
-/* line 35, ../sass/base/_body.scss */
+/* line 38, ../sass/base/_body.scss */
 .btn {
   padding: 4px 12px;
   text-transform: uppercase;
@@ -123,13 +127,13 @@ html {
   transition: all .3s ease-in-out;
 }
 
-/* line 45, ../sass/base/_body.scss */
+/* line 48, ../sass/base/_body.scss */
 .btn-default {
   border: 1px solid #56A292;
   color: #56A292;
   background-color: transparent;
 }
-/* line 49, ../sass/base/_body.scss */
+/* line 52, ../sass/base/_body.scss */
 .btn-default:hover, .btn-default:focus {
   border: 1px solid #56A292;
   outline: none;
@@ -137,31 +141,31 @@ html {
   background-color: #56A292;
 }
 
-/* line 58, ../sass/base/_body.scss */
+/* line 61, ../sass/base/_body.scss */
 ::-moz-selection {
   text-shadow: none;
   background: #56A292;
   background: #56A292;
 }
 
-/* line 64, ../sass/base/_body.scss */
+/* line 67, ../sass/base/_body.scss */
 ::selection {
   text-shadow: none;
   background: #56A292;
   background: #56A292;
 }
 
-/* line 70, ../sass/base/_body.scss */
+/* line 73, ../sass/base/_body.scss */
 img::selection {
   background: transparent;
 }
 
-/* line 74, ../sass/base/_body.scss */
+/* line 77, ../sass/base/_body.scss */
 img::-moz-selection {
   background: transparent;
 }
 
-/* line 78, ../sass/base/_body.scss */
+/* line 81, ../sass/base/_body.scss */
 body {
   webkit-tap-highlight-color: #56A292;
 }
@@ -454,7 +458,7 @@ footer p {
   padding: 0 25px 25px 25px;
   position: absolute;
   left: 0;
-  margin-top: -550px;
+  margin-top: -325px;
   transition-property: opacity, margin-top;
   transition-timing-function: ease-in;
   transition-duration: .8s;
