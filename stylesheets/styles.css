@@ -436,24 +436,30 @@ footer p {
   display: block;
   padding: 14px 21px;
   color: #FFFFFF;
+  background: #17232B;
   font-size: 20px;
   font-weight: normal;
   cursor: pointer;
   position: relative;
   top: 4px;
+  z-index: 10;
 }
-/* line 29, ../sass/components/_tabs.scss */
+/* line 32, ../sass/components/_tabs.scss */
 .tabs .tab-content {
-  z-index: 2;
-  display: none;
+  z-index: 1;
+  opacity: 0;
   width: 100%;
   font-size: 17px;
   line-height: 25px;
   padding: 0 25px 25px 25px;
   position: absolute;
   left: 0;
+  margin-top: -550px;
+  transition-property: opacity, margin-top;
+  transition-timing-function: ease-in;
+  transition-duration: .8s;
 }
-/* line 38, ../sass/components/_tabs.scss */
+/* line 47, ../sass/components/_tabs.scss */
 .tabs .tab-content ul {
   columns: 2;
   column-gap: 50px;
@@ -462,7 +468,7 @@ footer p {
   -moz-columns: 2;
   -moz-column-gap: 50px;
 }
-/* line 45, ../sass/components/_tabs.scss */
+/* line 54, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li {
   width: 100%;
   float: left;
@@ -472,32 +478,34 @@ footer p {
   color: #FFFFFF;
   border-bottom: solid 2px #FFFFFF;
 }
-/* line 54, ../sass/components/_tabs.scss */
+/* line 63, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li i {
   color: #56A292;
 }
-/* line 55, ../sass/components/_tabs.scss */
+/* line 64, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li h5 {
   display: inline-block;
   margin-bottom: 0;
   margin-left: 15px;
 }
-/* line 60, ../sass/components/_tabs.scss */
+/* line 69, ../sass/components/_tabs.scss */
 .tabs .tab-content ul li p {
   margin: 0 0 0 40px;
   font-size: 16px;
 }
-/* line 68, ../sass/components/_tabs.scss */
+/* line 77, ../sass/components/_tabs.scss */
 .tabs [id^="tab"]:checked + label {
   padding-top: 15px;
   color: #56A292;
 }
-/* line 72, ../sass/components/_tabs.scss */
+/* line 81, ../sass/components/_tabs.scss */
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
-  display: block;
+  opacity: 1;
+  margin-top: 0px;
+  z-index: 4;
 }
 
-/* line 77, ../sass/components/_tabs.scss */
+/* line 88, ../sass/components/_tabs.scss */
 label {
   display: block;
   padding: 14px 21px;
@@ -512,38 +520,38 @@ label {
 }
 
 @media (max-width: 650px) {
-  /* line 91, ../sass/components/_tabs.scss */
+  /* line 102, ../sass/components/_tabs.scss */
   [id^="tab"]:checked + label {
-    color: #FFFFFF !important;
-    background: #56A292 !important;
+    color: #56A292 !important;
+    background: #FFFFFF !important;
     padding: 14px !important;
   }
 
-  /* line 96, ../sass/components/_tabs.scss */
+  /* line 107, ../sass/components/_tabs.scss */
   .tabs label {
     padding: 14px 0;
     background: #56A292;
   }
-  /* line 101, ../sass/components/_tabs.scss */
+  /* line 112, ../sass/components/_tabs.scss */
   .tabs li .fa-5x {
     font-size: 2rem;
   }
-  /* line 102, ../sass/components/_tabs.scss */
+  /* line 113, ../sass/components/_tabs.scss */
   .tabs li h4, .tabs li p {
     display: none;
   }
 
-  /* line 105, ../sass/components/_tabs.scss */
+  /* line 116, ../sass/components/_tabs.scss */
   .tab-content {
     height: auto !important;
   }
-  /* line 107, ../sass/components/_tabs.scss */
+  /* line 118, ../sass/components/_tabs.scss */
   .tab-content ul {
     columns: 1 !important;
     -webkit-columns: 1 !important;
     -moz-columns: 1 !important;
   }
-  /* line 111, ../sass/components/_tabs.scss */
+  /* line 122, ../sass/components/_tabs.scss */
   .tab-content ul li {
     margin: 20px 0 !important;
   }
