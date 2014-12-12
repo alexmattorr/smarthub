@@ -633,10 +633,10 @@ label {
   width: 70px;
   height: 70px;
   margin-top: 15px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #56A292;
   border-radius: 35px;
   font-size: 40px;
-  color: #FFFFFF;
+  color: #56A292;
   background: transparent;
   -moz-box-shadow: 0 0 25px #ccc;
   -webkit-box-shadow: 0 0 25px #ccc;
@@ -649,7 +649,6 @@ label {
   outline: none;
   color: #FFFFFF;
   background: #56A292;
-  border-color: #56A292;
   -moz-box-shadow: 0 0 100px #ccc;
   -webkit-box-shadow: 0 0 100px #ccc;
   box-shadow: 0 0 100px #fff;
