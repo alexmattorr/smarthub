@@ -55,6 +55,7 @@ ol {
         font-size: 20px;
         display: table-row;
         counter-increment: table-ol;
+        border-spacing: 5em;
 
         &:before {
             content: counter(table-ol) ".";

@@ -249,8 +249,9 @@ ol li {
   font-size: 20px;
   display: table-row;
   counter-increment: table-ol;
+  border-spacing: 5em;
 }
-/* line 59, ../sass/base/_typography.scss */
+/* line 60, ../sass/base/_typography.scss */
 ol li:before {
   content: counter(table-ol) ".";
   display: table-cell;
