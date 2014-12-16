@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Montserrat:400,700);
+
 h1,
 h2,
 h3,
@@ -42,6 +44,29 @@ a {
     }
 }
 
-.light {
-    font-weight: 400;
+.light { font-weight: 400; }
+
+ol {
+    display: table;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none; 
+    li {
+        font-size: 20px;
+        display: table-row;
+        counter-increment: table-ol;
+
+        &:before {
+            content: counter(table-ol) ".";
+            display: table-cell;
+            font-weight: 700;
+            color: $teal;
+            padding-right: 0.4em;
+            text-align: right;
+        }
+    }
 }
+
+  
+
+    
